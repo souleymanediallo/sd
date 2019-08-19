@@ -1,0 +1,197 @@
+
+body {
+	background-color: #eaf0f7;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #50649c;
+}
+
+.main-wrapper {
+	margin: 80px 62px 65px 62px;
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+.btn-portfolio {
+	border-radius: 30px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	background: #1a253f;
+	border: 1px solid #1a253f;
+	transition: .3s;
+}
+
+.btn-portfolio:hover {
+	background: transparent;
+	color: #1a253f;
+	border: 1px solid #1a253f;
+	transition: .3s;
+}
+
+
+/* ============= navbar ============ */
+
+.bg-navbar {
+	background-color: #1a253f;
+}
+
+.navbar-brand {
+	padding: 5px;
+	border: 1px solid #fff;
+	border-radius: 50%;
+}
+
+/* ============= end navbar ============ */
+
+/* ============== box left ================ */
+
+.profil {
+	background-color: #1a253f;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+.profil-detail {
+	padding-top: 20px;
+}
+
+.profil-first-name {
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 6px;
+	font-family: 'Roboto', sans-serif;
+	color: #b6c2e4;
+}
+
+.profil-developpeur {
+	color: #fff;
+}
+
+.profil-developpeur span {
+	padding-top: 10px;
+	font-size: 26px;
+}
+
+.contact {
+	color: #a4abc5;
+}
+
+.contact ul li a {
+	text-decoration: none;
+
+}
+
+/* ============== end box left ================ */
+
+/* ============== box right ================ */
+
+.box-right {
+	position: relative;
+	background-color: #fff;
+	padding: 40px;
+}
+
+#portfolio .card {
+	position: relative;
+	margin-bottom: 30px;
+	background-color: #1a253f;
+	border: 1px solid #fff;
+}
+
+#portfolio .card-body h3{
+	text-align: center;
+	font-size: 16px;
+}
+
+#portfolio .card .overlay {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #a4abc5;
+}
+
+#portfolio .card:hover .overlay {
+	opacity: 0.8; 
+}
+
+#portfolio .card .overlay .btn {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	text-align: center; 
+	background: #000;
+	color: #fff;
+}
+
+/* ======== modal ============== */
+
+.modalportfolio .modal {
+	background-color: #eaf0f7;
+}
+
+.modal-content {
+	
+	border: 1px solid #eaf0f7;
+}
+
+.modal-header {
+	background-color: #1a253f;
+}
+
+.modal-title {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	text-transform: uppercase;
+	
+}
+
+.modal-body h2 {
+	font-size: 20px;
+}
+
+.modal-body p{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: #50649c;
+
+}
+
+.modal-header .close {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 50%;
+	height: 50px;
+	width: 50px;
+	color: #000;
+	font-size: 30px;
+	margin: 0;
+}
+
+/* =========== end box right ============== */
+
+/* =========== footer ============== */
+
+footer {
+	background-color: #f3f6f7;
+}
+
+/* =========== end footer ============== */
+
+
+
+
+
